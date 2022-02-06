@@ -1,6 +1,11 @@
 # SYSEN5160 HW#1 - Testing out different Streamlit elements
 # JMD543
 
+import altair as alt
+import math
+import pandas as pd
+import streamlit as st
+
 # Text Elements - Titles & Latex Math Equations
     # Titles
     st.title("My First Time Coding in Python!")
