@@ -16,10 +16,10 @@ E = mc^2
 
 # Data Display Elements - Tables & Metrics
 # Static Tables
-LOL = pd.DataFrame(
+TB = pd.DataFrame(
 np.random.randn(5,5), # Random matrix of numbers 5 rows x 5 columns
-columns = ('# of Bananas, # of Apples, # of Oranges, # of Mangoes, # of Peaches')
-st.table(LOL)
+columns=('col %d' % i for i in range(5)))
+st.table(TB)
 
 # Metrics
 col1, col2, col3 = st.columns(3)
