@@ -41,7 +41,7 @@ st.map(BOS)
 # Simple Bar Charts
 BARchart = pd.DataFrame(
  np.random.randn(50, 3),
- columns=["Apricots", "Blueberries", "Strawberries"])
+ columns=["Blueberries", "Apricots", "Strawberries"])
 st.bar_chart(BARchart)
 
 # Input Widgets - Button & Radio & Selectbox & Slider & Date Input
