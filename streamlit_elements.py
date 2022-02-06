@@ -41,7 +41,7 @@ st.map(BOS)
 # Simple Bar Charts
 BARchart = pd.DataFrame(
  np.random.randn(50, 3),
- columns=["Blueberries", "Apricots", "Strawberries"])
+ columns=["Apricots", "Blueberries", "Strawberries"])
 st.bar_chart(BARchart)
 
 # Input Widgets - Button & Radio & Selectbox & Slider & Date Input
@@ -68,12 +68,6 @@ st.write('You selected:', option)
 #Slider    
 weight = st.slider('How much do you weigh?', 0, 250, 110) # Question, Min, Max, Value
 st.write("You weigh", weight, 'pounds')
-
-# Date Input
-BDay = st.date_input(
- "When's your birthday?",
- datetime.date(1996, 5, 1))
-st.write('Your birthday is:', Bday)
 
 # Media Elements - Image & Audio & Video
 # Video
